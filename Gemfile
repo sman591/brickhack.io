@@ -13,6 +13,8 @@ group :production, :postgresql do
   gem 'pg'
 end
 
+gem 'sidekiq'
+
 gem 'haml-rails'
 gem 'simple_form'
 
